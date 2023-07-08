@@ -12,26 +12,26 @@ const Header = () => {
     <div>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand> <Link to={'/'}>Natural</Link> </Navbar.Brand>
+          <Navbar.Brand> <Link to={'/'} id='ta'>Natural</Link> </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link> 
-              <Link to={'/'}>
+              <Link to={'/'} id='ta'>
                 Главная
               </Link> 
             </Nav.Link>
             <Nav.Link> 
-              <Link to={'/favorites'}>
+              <Link to={'/favorites'} id='ta'>
                 Избранное
               </Link> 
             </Nav.Link>
             <Nav.Link>
-              <Link to={'/cart'}>
+              <Link to={'/cart'} id='ta'>
                 Корзина
               </Link>
             </Nav.Link>
           </Nav>
           <Nav>
-            <Button variant="primary">
+            <Button variant="primary" id='ta'>
               Войти
             </Button>  
           </Nav>
